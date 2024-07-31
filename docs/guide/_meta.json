@@ -13,6 +13,13 @@
     "collapsible": true,
     "collapsed": false
   },
+	{
+    "type": "dir",
+    "name": "cocos",
+    "label": "cocos creator",
+    "collapsible": true,
+    "collapsed": false
+  },
   {
     "type": "dir",
     "name": "design",
