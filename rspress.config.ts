@@ -1,6 +1,5 @@
 import * as path from 'path';
 import { defineConfig } from 'rspress/config';
-import live2d from 'rspress-plugin-live2d';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
