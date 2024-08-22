@@ -5,8 +5,8 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: 'AmMikeYa blog',
   description: 'amMikeYa blog',
-  icon: "/logo.png",
-  logo: {
+  icon: "/logo.png", // 浏览器左上角角标的icon
+  logo: { // 主页左上角的logo
     light: "/logo.png",
     dark: "/logo.png",
   },

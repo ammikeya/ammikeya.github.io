@@ -7,9 +7,5 @@
     "text": "Hello World",
     "link": "/hello/",
     "activeMatch": "/hello/"
-  },
-  {
-    "text": "API",
-    "link": "https://rspress.dev/api/index.html"
   }
 ]
