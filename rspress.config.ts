@@ -11,6 +11,14 @@ export default defineConfig({
     dark: "/logo.png",
   },
   themeConfig: {
+		nav: [
+			{
+				"text": "About Me",
+				"link": "/hello/",
+				"activeMatch": "/hello/"
+			}
+		],
+		lastUpdated: true,
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/ammikeya' },
     ],
