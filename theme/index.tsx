@@ -1,4 +1,4 @@
-import Theme, { LinkCard } from 'rspress/theme';
+import Theme from 'rspress/theme';
 
 import { usePageData } from 'rspress/runtime';
 
