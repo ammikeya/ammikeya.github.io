@@ -9,23 +9,23 @@ const HomeLayout = () => {
 	console.log('pageData', pageData)
 	const { siteData } = pageData;
 	const { pages = [] } = siteData || {}
+	const filterPages = pages.filter(item => item.title).filter(item => item.routePath.includes('/guide/')).sort((a, b) => b?.lastUpdatedTime?.localeCompare(a?.lastUpdatedTime))
   return (
-    <div style={{ padding: '2rem 8rem'	}}>
-      {pages.map(item => {
+    <div className='p-8 max-w-3xl mx-auto'>
+      {filterPages.map((item, index) => {
 				return (
 					<div 
-						style={{ marginBottom: '0rem', padding: '1rem' }} 
+						className='p-4'
 						title={item.title} 
 						key={item.routePath}
-						className='link-card'
 					>
-						<a href={item.routePath} className='link-card-title'>
+						<a className='font-normal text-lg' href={item.routePath}>
 							{item.title}
 						</a>
-						<div style={{ fontSize: '16px', color: '#a1a1aa' }}>
+						<div className='text-sm text-gray-400'>
 							{item.lastUpdatedTime}
 						</div>
-						<div style={{ fontSize: '16px', color: '#71717a' }}>
+						<div className='text-gray-500'>
 							{item.frontmatter.description || ''}
 						</div>
 					</div>

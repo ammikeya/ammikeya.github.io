@@ -13,9 +13,8 @@ export default defineConfig({
   themeConfig: {
 		nav: [
 			{
-				"text": "About Me",
-				"link": "/hello/",
-				"activeMatch": "/hello/"
+				"text": "Me",
+				"link": "/about/"
 			}
 		],
 		lastUpdated: true,
@@ -23,4 +22,5 @@ export default defineConfig({
       { icon: 'github', mode: 'link', content: 'https://github.com/ammikeya' },
     ],
   },
+	globalStyles: path.join(__dirname, 'styles/index.css'),
 });
