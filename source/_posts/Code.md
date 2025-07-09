@@ -1,3 +1,10 @@
+---
+title: js基础
+date: 2024-07-09
+tags: [Javascript]
+categories: [FE]
+---
+
 # js手写代码
 ### 一、JavaScript基础
 

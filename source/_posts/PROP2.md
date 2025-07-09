@@ -1,3 +1,10 @@
+---
+title: vue组件传值下
+date: 2021-07-09
+tags: [Vue]
+categories: [FE]
+---
+
 # vue组件传值下
 
    1. $parent/$childern & ref

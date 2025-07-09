@@ -1,3 +1,10 @@
+---
+title: 面试 ql
+date: 2022-07-09
+tags: [Javascript]
+categories: [FE]
+---
+
 # ql
 
 1. 组件的pureComponent原理和memo

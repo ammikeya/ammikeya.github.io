@@ -1,3 +1,10 @@
+---
+title: js基础
+date: 2024-07-09
+tags: [Javascript]
+categories: [FE]
+---
+
 # js基础-Map
 
 ### Map

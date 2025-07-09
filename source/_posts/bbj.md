@@ -1,3 +1,10 @@
+---
+title: 面试-bbj
+date: 2022-07-09
+tags: [Javascript]
+categories: [FE]
+---
+
 # bbj
 
 1. vue和react的区别以及diff算法的差异

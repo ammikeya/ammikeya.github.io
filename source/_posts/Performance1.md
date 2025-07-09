@@ -1,3 +1,12 @@
+---
+title: 性能优化
+date: 2024-07-09
+tags: 
+	- Javascript
+categories:
+  - FE
+---
+
 # 性能优化
 
 1. 减少垃圾回收
