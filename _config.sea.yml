@@ -7,3 +7,19 @@ menu:
     url: /tags/
   - name: Archives
     url: /archives/
+
+socialLink:
+  - name: Github
+    link: https://github.com/ammikeya
+#   - name: Facebook
+#     link: https://github.com/hai-zou/hexo-theme-sea
+#   - name: Telegram
+#     link: https://github.com/hai-zou/hexo-theme-sea
+#   - name: Instagram
+#     link: https://github.com/hai-zou/hexo-theme-sea
+
+# favicon: /logo.svg
+
+search:
+  enable: false
+  type: algolia
