@@ -7,10 +7,12 @@ menu:
     url: /tags/
   - name: Archives
     url: /archives/
+  - name: About
+    url: /about/
 
-socialLink:
-  - name: Github
-    link: https://github.com/ammikeya
+# socialLink:
+#   - name: Github
+#     link: https://github.com/ammikeya
 #   - name: Facebook
 #     link: https://github.com/hai-zou/hexo-theme-sea
 #   - name: Telegram
